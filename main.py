@@ -5,7 +5,7 @@ from utils.json_builder import build_json
 pdf_file = r"D:\Testline\1706.03762v7 (1).pdf"
 
 def main():
-    print("📘 Starting PDF content analysis...")
+    print("Starting PDF content analysis...")
 
    
     text_data = extract_text(pdf_file)
